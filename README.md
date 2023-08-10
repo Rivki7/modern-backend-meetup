@@ -310,8 +310,8 @@ controller/StudentsController.java
         return new ResponseEntity<>("DELETED", HttpStatus.OK);
     }
 ```
-commit - with students CRUD
-####simple filter
+commit - with students CRUD 
+#### simple filter
 StudentRepository.java
 ```java
     List<Student> findAllBySatScoreGreaterThan(Integer satScore);
@@ -335,7 +335,7 @@ StudentController.java
     }
 ```
 
-####FPS
+#### FPS
 apply fps.patch
 <br>
 model/StudentOut:
